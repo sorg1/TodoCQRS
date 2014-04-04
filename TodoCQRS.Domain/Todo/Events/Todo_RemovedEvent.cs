@@ -2,7 +2,7 @@
 
 namespace TodoCQRS.Domain.Todo.Events
 {
-    class Todo_RemovedEvent : Event
+    public class Todo_RemovedEvent : Event
     {
         public string Id { get; set; }
     }

@@ -3,7 +3,7 @@ using Paralect.Domain;
 
 namespace TodoCQRS.Domain.Todo
 {
-    class TodoState
+    public class TodoState
     {
         public string Id { get; private set; }
         public string Name { get; private set; }
